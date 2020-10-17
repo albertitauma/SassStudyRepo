@@ -1,0 +1,23 @@
+
+@mixin flexCenter ($background)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: $background;
+
+}
+
+
+header
+{
+    background: lightblue;
+    height: 50vh;
+
+        button
+            {
+                background: $primaryBtn;
+                &::after {content: "Hellooo";}
+            }
+}
